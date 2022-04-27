@@ -69,3 +69,946 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/*medium devices (smart, 360px and up)*/
+@media (min-width: 360px) { 
+
+  /* Estilização do Container Principal */
+  
+  #Pincipal{
+    position: relative;
+    align-items: center;
+  }
+  
+  #Texto-Principal{
+    width: 100%;
+    height: 40%;
+  }
+  
+  #pri_linha .row h2{
+    color: #000000;
+    font-size: 25px;
+  }
+  
+  .Texto{
+    text-indent: 0px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  
+  .Texto-Principal{
+    float: left;
+  }
+  
+  .ImagemPrincipal{
+    margin-left: 40%;
+  }
+  
+  
+  /* Estilização do Container Secundário */
+  
+  .links{
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 0%;
+  }
+  
+  #links .AgendaImg img{
+    margin-left: -30%;
+  
+  }
+  
+  #links .AgendaTxt {
+    margin-top: 90%;
+    margin-left: -40%;
+    display: flex;
+  }
+  
+  #links .DicasImg img{
+    margin-left: -30%;
+    margin-top: -100%;
+    
+  }
+  
+  #links .DicasTxt {
+    margin-top: 40%;
+    margin-left: -40%;
+    display: flex;
+  }
+  
+  #links .ApoiadoresImg img{
+    margin-left: -30%;
+    margin-top: -100%;
+  }
+  
+  #links .ApoiadoresTxt {
+    margin-top: 40%;
+    margin-left: -40%;
+    display: flex;
+  }
+  
+  #formulario{    
+    width: 100%;
+    height: 110%;
+    border: solid rgb(0, 0, 0) 1px;
+    float: right;
+  }
+  #formulario h2{
+    margin-left: 7px;
+  }
+  
+  .text{
+    margin-left: 7px;    
+  }
+  
+  .agenda a{
+    float: left;
+    width: 120px;
+    height: 180px;
+    text-decoration: none;
+  }
+  
+  .dicas a{
+    float: left;
+    width: 120px;
+    height: 180px;
+    text-decoration: none;    
+  }
+  
+  .apoiadores a{
+    float: left;
+    width: 120px;
+    height: 180px;
+    text-decoration: none;
+  }
+  
+  /* Estilização do Formulário */
+  
+  #formulario label{
+    position:relative;
+    margin-left: 7px;
+    margin-right:23px;
+  }
+  
+  #formulario input.Nome{
+    position:relative;
+    left: 110px;
+    top: 3px;
+    width:225px;
+  }
+  
+  #formulario input.Email{
+    position:relative;
+    left: 116px;
+    margin-top:2px;
+    width:225px;
+  }
+  
+  #formulario input.Mensagem{
+    position:absolute;
+    left:90px;
+    margin-top:2px;
+    width:225px;    
+  }
+  
+  #formulario .btn-primary{
+    position: relative;
+    width: 100px;
+    left: 69%;
+    margin: -2% 0 3% 0;
+  }
+  
+  #formulario h2{
+    top: 0;
+    margin-left: -4.5%;
+  }
+  
+  #formulario p{
+    margin-left: -3.5%;
+    font-size: 13.5px;
+  }
+  
+  /* Estilização das modais */
+  
+  .t-modal .modal-content{
+    width: 400px;
+    border-radius: 30px;
+  }
+  
+  .t-modal .bloco{
+    width: 250px;
+    height: 80px;
+  }
+  .t-modal .modal-title{
+    font-size: 25px;
+  }
+  
+  .imgApoiador{
+    float: left;
+  }
+  
+  .t-modal .descricao{
+    float: right;
+  }
+  
+  }
+
+/*medium devices (smart, 768px and up)*/
+@media (min-width: 768px) { 
+
+/* Estilização do Container Principal */
+
+#Pincipal{
+  position: relative;
+  align-items: center;
+}
+
+#Texto-Principal{
+  width: 100%;
+  height: 40%;
+ 
+}
+
+#pri_linha .row h2{
+  color: #000000;
+  font-size: 40px;
+}
+
+.Texto{
+  text-indent: 0px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+
+.Texto-Principal{
+  float: left;
+}
+
+.ImagemPrincipal{
+  margin-left: 40%;
+}
+
+
+/* Estilização do Container Secundário */
+
+.links{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5%;
+}
+
+#links .AgendaImg img{
+  margin-left: -200%;
+  margin-top: 5%;
+}
+
+#links .AgendaTxt {
+  margin-top: 115%;
+  margin-left: -130%;
+  display: flex;
+}
+
+#links .DicasImg img{
+  margin-left: -90%;
+  margin-top: 5%;
+}
+
+#links .DicasTxt {
+  margin-top: 115%;
+  margin-left: -90%;
+  display: flex;
+}
+
+#links .ApoiadoresImg img{
+  margin-left: -25%;
+  margin-top: 5%;
+}
+
+#links .ApoiadoresTxt {
+  margin-top: 115%;
+  margin-left: -40%;
+  display: flex;
+}
+
+#formulario{    
+  width: 100%;
+  height: 110%;
+  border: solid rgb(0, 0, 0) 1px;
+  float: right;
+}
+#formulario h2{
+  margin-left: 7px;
+}
+
+.text{
+  margin-left: 7px;    
+}
+
+.agenda a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+.dicas a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;    
+}
+
+.apoiadores a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+/* Estilização do Formulário */
+
+#formulario label{
+  position:relative;
+  margin-left: 7px;
+  margin-right:23px;
+}
+
+#formulario input.Nome{
+  position:relative;
+  left: 110px;
+  top: 3px;
+  width:225px;
+}
+
+#formulario input.Email{
+  position:relative;
+  left: 116px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.Mensagem{
+  position:absolute;
+  left:90px;
+  margin-top:2px;
+  width:225px;    
+}
+
+#formulario .btn-primary{
+  position: relative;
+  width: 100px;
+  left: 65%;
+  margin: -2% 0 3% 0;
+}
+
+#formulario h2{
+  top: 0;
+  margin-left: -4.5%;
+}
+
+#formulario p{
+  margin-left: -3%;
+  
+}
+
+/* Estilização das modais */
+
+.t-modal .modal-content{
+  width: 400px;
+  border-radius: 30px;
+}
+
+.t-modal .bloco{
+  width: 250px;
+  height: 80px;
+}
+.t-modal .modal-title{
+  font-size: 25px;
+}
+
+.imgApoiador{
+  float: left;
+}
+
+.t-modal .descricao{
+  float: right;
+} 
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ /* Estilização do Container Principal */
+
+ #Pincipal{
+  position: relative;
+  align-items: center;
+}
+
+#Texto-Principal{
+  width: 100%;
+  height: 40%;
+}
+
+#pri_linha .row h2{
+  color: #000000;
+  font-size: 25px;
+}
+
+.Texto{
+  text-indent: 0px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.Texto-Principal{
+  float: left;
+}
+
+.ImagemPrincipal{
+  margin-left: 40%;
+}
+
+
+/* Estilização do Container Secundário */
+
+.links{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5%;
+}
+
+#links .AgendaImg img{
+  margin-left: -190%;
+  width: 150%;
+  height: 100%;
+}
+
+#links .AgendaTxt {
+  width: 150%;
+  height: 100%;
+  margin-top: 5%;
+  margin-left: -75%;
+  display: flex;
+}
+
+#links .DicasImg img{
+  margin-left: -110%;
+  width: 150%;
+  height: 100%;
+}
+
+#links .DicasTxt {
+  width: 150%;
+  height: 100%;
+  margin-top: 5%;
+  margin-left: -45%;
+  display: flex;
+}
+
+#links .ApoiadoresImg img{
+  margin-left: -50%;
+  width: 150%;
+  height: 100%;
+}
+
+#links .ApoiadoresTxt {
+  width: 150%;
+  height: 100%;
+  margin-top: 5%;
+  margin-left: -10%;
+  display: flex;
+}
+
+#formulario{    
+  width: 100%;
+  height: 110%;
+  border: solid rgb(0, 0, 0) 1px;
+  float: right;
+}
+#formulario h2{
+  margin-left: 7px;
+}
+
+.text{
+  margin-left: 7px;    
+}
+
+.agenda a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+.dicas a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;    
+}
+
+.apoiadores a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+/* Estilização do Formulário */
+
+#formulario label{
+  position:relative;
+  margin-left: 7px;
+  margin-right:23px;
+}
+
+#formulario input.Nome{
+  position:relative;
+  left: 110px;
+  top: 3px;
+  width:225px;
+}
+
+#formulario input.Email{
+  position:relative;
+  left: 116px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.Mensagem{
+  position:absolute;
+  left:90px;
+  margin-top:2px;
+  width:225px;    
+}
+
+#formulario .btn-primary{
+  position: relative;
+  width: 100px;
+  left: 56%;
+  margin: -2% 0 3% 0;
+}
+
+#formulario h2{
+  top: 0;
+  margin-left: -4.5%;
+}
+
+#formulario p{
+  margin-left: -3%;
+  
+}
+
+/* Estilização das modais */
+
+.t-modal .modal-content{
+  width: 400px;
+  border-radius: 30px;
+}
+
+.t-modal .bloco{
+  width: 250px;
+  height: 80px;
+}
+.t-modal .modal-title{
+  font-size: 25px;
+}
+
+.imgApoiador{
+  float: left;
+}
+
+.t-modal .descricao{
+  float: right;
+} 
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ /* Estilização do Container Principal */
+
+ #Pincipal{
+  position: relative;
+  align-items: center;
+}
+
+#Texto-Principal{
+  width: 40%;
+  height: 40%;
+}
+
+#pri_linha .row h2{
+  color: #000000;
+}
+
+.Texto{
+  text-indent: 0px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.Texto-Principal{
+  float: left;
+}
+
+.ImagemPrincipal{
+  margin-left: 40%;
+}
+
+
+/* Estilização do Container Secundário */
+
+.links{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5%;
+}
+
+#links .AgendaImg img{
+  width: 190%;
+  height: 110%;
+  margin-left: -200%;
+  margin-top: 5%;
+}
+
+#links .AgendaTxt {
+  width: 190%;
+  height: 110%;
+  margin-top: 15%;
+  margin-left: -60%;
+  display: flex;
+}
+
+#links .DicasImg img{
+  width: 190%;
+  height: 110%;
+  margin-left: -90%;
+  margin-top: 5%;
+}
+
+#links .DicasTxt {
+  width: 190%;
+  height: 110%;
+  margin-top: 15%;
+  margin-left: -25%;
+  display: flex;
+}
+
+#links .ApoiadoresImg img{
+  width: 190%;
+  height: 110%;
+  margin-left: -50%;
+  margin-top: 5%;
+}
+
+#links .ApoiadoresTxt {
+  width: 190%;
+  height: 110%;
+  margin-top: 15%;
+  margin-left: 10%;
+  display: flex;
+}
+
+#formulario{    
+  width: 100%;
+  height: 110%;
+  border: solid rgb(0, 0, 0) 1px;
+  float: right;
+}
+#formulario h2{
+  margin-left: 7px;
+}
+
+.text{
+  margin-left: 7px;    
+}
+
+.agenda a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+.dicas a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;    
+}
+
+.apoiadores a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+/* Estilização do Formulário */
+
+#formulario label{
+  position:relative;
+  margin-left: 7px;
+  margin-right:23px;
+}
+
+#formulario input.Nome{
+  position:relative;
+  left: 110px;
+  top: 3px;
+  width:225px;
+}
+
+#formulario input.Email{
+  position:relative;
+  left: 116px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.Mensagem{
+  position:absolute;
+  left:90px;
+  margin-top:2px;
+  width:225px;    
+}
+
+#formulario .btn-primary{
+  position: relative;
+  width: 100px;
+  left: 56%;
+  margin: -2% 0 3% 0;
+}
+
+#formulario h2{
+  top: 0;
+  margin-left: -4.5%;
+}
+
+#formulario p{
+  margin-left: -3%;
+  
+}
+
+/* Estilização das modais */
+
+.t-modal .modal-content{
+  width: 400px;
+  border-radius: 30px;
+}
+
+.t-modal .bloco{
+  width: 250px;
+  height: 80px;
+}
+.t-modal .modal-title{
+  font-size: 25px;
+}
+
+.imgApoiador{
+  float: left;
+}
+
+.t-modal .descricao{
+  float: right;
+} 
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+ 
+/* Estilização do Container Principal */
+
+#Pincipal{
+  position: relative;
+  align-items: center;
+}
+
+#Texto-Principal{
+  width: 40%;
+  height: 40%;
+}
+
+#pri_linha .row h2{
+  color: #000000;
+}
+
+.Texto{
+  text-indent: 0px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.Texto-Principal{
+  float: left;
+}
+
+.ImagemPrincipal{
+  margin-left: 40%;
+}
+
+
+/* Estilização do Container Secundário */
+
+.links{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5%;
+}
+
+#links .AgendaImg img{
+  margin-left: -200%;
+
+}
+
+#links .AgendaTxt {
+  margin-top: 90%;
+  margin-left: -40%;
+  display: flex;
+}
+
+#links .DicasImg img{
+  margin-left: -30%;
+  
+}
+
+#links .DicasTxt {
+  margin-top: 90%;
+  margin-left: -40%;
+  display: flex;
+}
+
+#links .ApoiadoresImg img{
+  margin-left: -30%;
+  
+}
+
+#links .ApoiadoresTxt {
+  margin-top: 90%;
+  margin-left: -40%;
+  display: flex;
+}
+
+#formulario{    
+  width: 100%;
+  height: 110%;
+  border: solid rgb(0, 0, 0) 1px;
+  float: right;
+}
+#formulario h2{
+  margin-left: 7px;
+}
+
+.text{
+  margin-left: 7px;    
+}
+
+.agenda a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+.dicas a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;    
+}
+
+.apoiadores a{
+  float: left;
+  width: 120px;
+  height: 180px;
+  text-decoration: none;
+}
+
+/* Estilização do Formulário */
+
+#formulario label{
+  position:relative;
+  margin-left: 7px;
+  margin-right:23px;
+}
+
+#formulario input.Nome{
+  position:relative;
+  left: 110px;
+  top: 3px;
+  width:225px;
+}
+
+#formulario input.Email{
+  position:relative;
+  left: 116px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.Mensagem{
+  position:absolute;
+  left:90px;
+  margin-top:2px;
+  width:225px;    
+}
+
+#formulario .btn-primary{
+  position: relative;
+  width: 100px;
+  left: 56%;
+  margin: -2% 0 3% 0;
+}
+
+#formulario h2{
+  top: 0;
+  margin-left: -4.5%;
+}
+
+#formulario p{
+  margin-left: -3%;
+  
+}
+
+/* Estilização das modais */
+
+.t-modal .modal-content{
+  width: 400px;
+  border-radius: 30px;
+}
+
+.t-modal .bloco{
+  width: 250px;
+  height: 80px;
+}
+.t-modal .modal-title{
+  font-size: 25px;
+}
+
+.imgApoiador{
+  float: left;
+}
+
+.t-modal .descricao{
+  float: right;
+} 
+
+}

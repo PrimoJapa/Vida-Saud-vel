@@ -3,41 +3,221 @@
     ViewData["Title"] = "Hotsite";
 }
 
-<div>
-    <h1>Iniciativa Saúde da Cidade</h1>
-    <p>
-        Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
-    </p>
-    <p>
-        Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
-    </p>
+<section id="pri_linha">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4" id="Texto-Principal">
+                    <h2 class="titulo">Iniciativa Saúde da Cidade</h2>
+                    <p class="Texto">
+                        Texto sobre vida saudável: Lorem ipsum dolor <br> sit amet et delectus accommodare his consul <br> copiosae legendos
+                        at vix ad putent delectus <br> delicata usu. Vidit dissentiet eos cu eum an <br> brute copiosae hendrerit.
+                    </p>
+                    <p class="Texto">
+                        Texto sobre a iniciativa: Eos erant dolorun an. <br> Per facer affert ut. Mei iisque mentitum <br> moderatius cu. Sit 
+                        munere facilis accusam eu <br> dicat falli consulatu at vis.  
+                    </p> 
+            </div>   
+            <div class="col-lg-8" id="ImagemPrincipal" >
+                    <img src="..\img\Banner1.png" width="100%" height="100%" >
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section id="seg_linha">
+    <div class="container-fluid Secundario">
+        <div class="row">
+            <div class="col-lg-4" id="formulario">
+                <div class="col-sm-9">
+                    <h2>Entre em contato!</h2>
+                </div>
+                <div class="col-sm-11">
+                    <p class="text">Nos mande uma mensagem e fique por dentro de <br> nossos eventos</p>
+                </div>
+                <form action="/Home/Cadastrar" method="POST" class="post">
+                    <div class="mb-3 row">
+                            <label asp-for="Nome" class="col-sm-2 col-form-label">Nome:</label>
+                        <div class="col-sm-7">
+                            <input asp-for="Nome" class="form-control" required />
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                            <label asp-for="Email" class="col-sm-2 col-form-label">Email:</label>
+                        <div class="col-sm-7">
+                            <input asp-for="Email" type="text" class="form-control" required />
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                            <label asp-for="Mensagem" class="col-sm-2 col-form-label">Mensagem (opcional):</label>
+                        <div class="col-sm-7">
+                        <textarea asp-for="Mensagem" class="form-control"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input class="btn btn-primary" type="submit" value="Enviar" />
+                    </div>
+                </form>         
+            </div>   
+
+                <div class="col-12 col-lg-8" id="links">
+                    <div class="links"><br><br>
+
+                            <div class="agenda">
+                                <a href="#" class="AgendaImg" data-toggle="modal" data-target="#Agenda"><img
+                                    src="..\img\Agenda.png" alt="Agenda"  width="220px" height="200px"></a>
+
+                                <a href="#" class="AgendaTxt" data-toggle="modal" data-target="#Agenda">Agenda de eventos</a>
+                            </div>
+
+                            <div class="dicas">
+                                <a href="#" class="DicasImg" data-toggle="modal" data-target="#Dicas"><img
+                                    src="..\img\VidaSaudavel.png" alt="Dicas de saúde"  width="220px" height="200px"></a>
+
+                                <a href="#" class="DicasTxt" data-toggle="modal" data-target="#Dicas">Dicas de vida saudável</a>
+                            </div>
+
+                            <div class="apoiadores">
+                                <a href="#" class="ApoiadoresImg" data-toggle="modal" data-target="#Apoiadores"><img
+                                    src="..\img\apoiadores.png" alt="Apoiadores"  width="220px" height="200px"></a>
+
+                                <a href="#" class="ApoiadoresTxt" data-toggle="modal" data-target="#Apoiadores">Apoiadores</a>
+                            </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- MODAL Agenda -->
+<div class="modal t-modal fade" id="Agenda" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="mx-auto modal-title">Agenda</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <h5>10/10/10 10:10 - Evento 1</h5>
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                </p>
+                <h5>10/10/10 10:10 - Evento 2</h5>
+                <p>
+                    Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul
+                    copiosae
+                </p>
+                <h5>10/10/10 10:10 - Evento 3</h5>
+                <p>
+                    Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul
+                    copiosae
+                </p>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
 </div>
 
-<div>
-    <h2>Entre em contato!:</h2>
-    <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+<!-- MODAL Dicas -->
 
-    <form action="/Home/Cadastrar" method="POST">
-        <div>
-            <label asp-for="Nome">Nome:</label>
-            <input asp-for="Nome" />
+<div class="modal t-modal fade" id="Dicas" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="mx-auto modal-title">Dicas de vida saudável</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                    legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                    legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                    legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos
+            </div>
+            <div class="modal-footer">
+                
+            </div>
         </div>
-        <div>
-            <label asp-for="Email">Email:</label>
-            <input asp-for="Email" />
-        </div>
-        <div>
-            <label asp-for="Mensagem">Mensagem (opcional):</label>
-            <textarea asp-for="Mensagem"></textarea>
-        </div>
-        <div>
-            <input type="submit" value="Enviar" />
-        </div>
-    </form>
+    </div>
 </div>
 
-<div>
-    <a href="#">Agenda de eventos</a>
-    <a href="#">Dicas de vida saudável</a>
-    <a href="#">Apoiadores</a>
+<!-- MODAL Apoiadores -->
+
+<div class="modal t-modal fade" id="Apoiadores" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="mx-auto modal-title">Apoiadores</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="bloco" row>
+                    <div class="imgApoiador" col-4>
+                        <img src="..\img\apoiadores4.png" alt="Empresa apoiadora" title="Apoiador" width="130px"
+                            height="90px" class="img-fluid" style="object-fit: cover;" />
+                    </div>
+                    <div class="descricao" col-8>
+                        <h5>Empresa 1</h5>
+                        <p>descrição</p>
+                    </div>
+                </div><br>
+                <div class="bloco" row>
+                    <div class="imgApoiador" col-12>
+                        <img src="..\img\apoiadores2.png" alt="Empresa apoiadora" title="Apoiador" width="130px"
+                            height="90px" class="img-fluid" style="object-fit: cover;" />
+                    </div>
+                    <div class="descricao" col-8>
+                        <h5>Empresa 2</h5>
+                        <p>descrição</p>
+                    </div>
+                </div><br>
+                <div class="bloco" row>
+                    <div class="imgApoiador" col-4>
+                        <img src="..\img\apoiadores3.png" alt="Empresa apoiadora" title="Apoiador" width="130px"
+                            height="90px" class="img-fluid" style="object-fit: cover;" />
+                    </div>
+                    <div class="descricao" col-8>
+                        <h5>Empresa 3</h5>
+                        <p>descrição</p>
+                    </div>
+                </div><br>
+                <div class="bloco" row>
+                    <div class="imgApoiador" col-4>
+                        <img src="..\img\apoiadores1.png" alt="Empresa apoiadora" title="Apoiador" width="130px"
+                            height="90px" class="img-fluid" />
+                    </div>
+                    <div class="descricao" col-8>
+                        <h5>Empresa 4</h5>
+                        <p>descrição</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
 </div>
