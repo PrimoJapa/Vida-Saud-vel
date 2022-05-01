@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Hotsite.Models;
+using MySql.Data.MySqlClient;
 
 namespace Hotsite.Controllers
 {
@@ -26,9 +27,19 @@ namespace Hotsite.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Interesse cad)
         {
+           
+            try
+            {
             DatabaseService dbs = new DatabaseService();
             dbs.CadastraInteresse(cad);
-            return View("Index",cad);
+            return Json(new {status="OK"});
+
+            }
+            catch(Exception e)
+            {
+                _logger.LogError("Falha ao ler arquivo: " + e.Message);
+                return Json(new {status="ERRO", mensagem="Falha ao gravar o banco de dados"});
+            }
         }
 
     }
