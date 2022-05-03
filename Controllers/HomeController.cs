@@ -38,7 +38,7 @@ namespace Hotsite.Controllers
             catch(Exception e)
             {
                 _logger.LogError("Falha ao ler arquivo: " + e.Message);
-                return Json(new {status="ERRO", mensagem="Falha ao gravar o banco de dados"});
+                return Json(new {status="ERRO", mensagem="Erro de Conexão!, Por favor tente novamente mais tarde."});
             }
         }
 

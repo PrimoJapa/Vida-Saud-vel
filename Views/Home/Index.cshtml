@@ -43,7 +43,7 @@
                             <label asp-for="Nome" class="col-sm-2 col-form-label">Nome:</label>
                             
                         <div class="col-sm-7">
-                            <input asp-for="Nome" id="nome" class="form-control"/>
+                            <input asp-for="Nome" id="nome" type="text" class="form-control"/>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@
                             <label asp-for="Email" class="col-sm-2 col-form-label">Email:</label>
                             
                         <div class="col-sm-7">
-                            <input asp-for="Email" id="email" type="email" class="form-control"/>
+                            <input asp-for="Email" id="email" type="text" class="form-control"/>
                         </div>
                     </div>
 
@@ -234,7 +234,7 @@
 				<div class="modal-content">
 					<div class="modal-header bg-success text-center">
 						<h5 class="modal-title" id="visulUsuarioModalLabel">Mensagem</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<button type="button" class="close" data-dismiss="modal" onClick="window.location.reload();" aria-label="Close">
 						  <span aria-hidden="true">&times;</span>
 						</button>
 					</div>

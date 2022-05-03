@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Hotsite.csproj",
+  "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Hotsite.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -10185,33 +10185,33 @@
   "RootNamespace": "Hotsite",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yE5ArJteGSMUi40t8LsGtqnpXELO4V5VyEr1o4iHIXbc2K1+HqcIUnzwZc8CbzxicpGdK5ul/4b1jXZPQZC80A==",
+  "dgSpecHash": "drAndIFTJWw//f4U0dTILGB5XBhfKcjIYVVAoJbfWTgY1+TrM0ieZQ3cAILySrt4F1etZBfyKlT3kOUycw6KzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Hotsite.csproj",
+  "projectFilePath": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Hotsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hiroshi\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
     "C:\\Users\\Hiroshi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

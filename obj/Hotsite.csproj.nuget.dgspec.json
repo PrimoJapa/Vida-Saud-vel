@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Hotsite.csproj": {}
+    "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Hotsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Hotsite.csproj": {
+    "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Hotsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Hotsite.csproj",
+        "projectUniqueName": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Hotsite.csproj",
         "projectName": "Hotsite",
-        "projectPath": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\Hotsite.csproj",
+        "projectPath": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\Hotsite.csproj",
         "packagesPath": "C:\\Users\\Hiroshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE01\\VidaSaudavel\\obj\\",
+        "outputPath": "C:\\Users\\Hiroshi\\Desktop\\Tec.Informatica\\Modulo B\\UC06\\ATIVIDADE02\\UC06_ATV02-HIROSHI IASSUNICHI\\TESTE CAIXA PRETA\\DOCUMENTAÇÃO\\Hotsite_MVC\\VidaSaudavel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hiroshi\\AppData\\Roaming\\NuGet\\NuGet.Config"
